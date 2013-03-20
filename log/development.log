@@ -22213,3 +22213,54 @@ Served asset /application.js - 304 Not Modified (0ms)
 
 Started GET "/assets/launch_screenshot.png" for 127.0.0.1 at 2013-03-20 15:26:34 -0400
 Served asset /launch_screenshot.png - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-20 15:33:10 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/launch_screenshot.png" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /launch_screenshot.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/launch_background.png" for 127.0.0.1 at 2013-03-20 15:33:11 -0400
+Served asset /launch_background.png - 304 Not Modified (5ms)
