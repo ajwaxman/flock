@@ -6,7 +6,22 @@
 	<div id="launch_text_box">
 		<h1 id="launch_text">Bring the party <span id="offline">OFFLINE</span></h1>
 	</div>
+
+
+		<%= form_for User.new do |f| %>
+			
+		  <div class="field">
+		    <%= f.email_field :email, :placeholder => "hopefullynot@aol.com" %>
+		  </div>
+
+		  <div class="actions">
+		    <%= f.submit "Request Beta Invite!" %>
+
+		  </div>
+			
+		<% end %>
 	
+
 	<header>	
 		<nav>
 			<ul>
@@ -21,7 +36,5 @@
 
 	<!-- <h2>Flock<br> A <span> simple </span> tool to help friends connect <span>offline</span> -->
 </div>
-
-
 
 
