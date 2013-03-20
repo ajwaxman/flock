@@ -22941,3 +22941,556 @@ Served asset /static_pages.js - 304 Not Modified (0ms)
 
 Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:36:22 -0400
 Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-20 16:48:43 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 16:48:43 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 16:48:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 16:48:43 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:43 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:43 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-03-20 16:48:48 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jQrvRwEv0ir2w4RRsvYj0skB5NWwc4r0t8OwFX68YYE=", "user"=>{"email"=>"awaxman11@gmail.com"}, "commit"=>"Request Beta Invite!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "email", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 20 Mar 2013 20:48:48 UTC +00:00], ["email", "awaxman11@gmail.com"], ["updated_at", Wed, 20 Mar 2013 20:48:48 UTC +00:00]]
+  Rendered user_mailer/sign_up.html.erb (0.1ms)
+  Rendered user_mailer/sign_up.text.erb (0.0ms)
+
+Sent mail to awaxman11@gmail.com (29ms)
+Date: Wed, 20 Mar 2013 16:48:48 -0400
+From: adam@flockhq.com
+To: awaxman11@gmail.com
+Message-ID: <514a20b0abf97_8b63feb261cd53071d1@Adam-Waxmans-MacBook-Pro.local.mail>
+Subject: Thanks for signing up!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_514a20b0a7270_8b63feb261cd530681c";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_514a20b0a7270_8b63feb261cd530681c
+Date: Wed, 20 Mar 2013 16:48:48 -0400
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <514a20b0aa357_8b63feb261cd5306973@Adam-Waxmans-MacBook-Pro.local.mail>
+
+Welcome to example.com
+===============================================
+ 
+You have successfully signed up to example.com
+ 
+To login to the site, just follow this link: http://example.com/login.
+ 
+Thanks for joining and have a great day!
+
+
+----==_mimepart_514a20b0a7270_8b63feb261cd530681c
+Date: Wed, 20 Mar 2013 16:48:48 -0400
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <514a20b0ab446_8b63feb261cd53070c7@Adam-Waxmans-MacBook-Pro.local.mail>
+
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://example.com/login.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+
+
+----==_mimepart_514a20b0a7270_8b63feb261cd530681c--
+
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/31
+Completed 302 Found in 70ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/users/31" for 127.0.0.1 at 2013-03-20 16:48:48 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "31"]]
+  Rendered users/show.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 17.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 16:48:48 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 16:48:48 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 16:48:48 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:48 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:48 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-03-20 16:48:54 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 16:48:54 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 16:48:54 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 16:48:54 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:54 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:54 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:48:54 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-03-20 16:53:06 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jQrvRwEv0ir2w4RRsvYj0skB5NWwc4r0t8OwFX68YYE=", "user"=>{"email"=>"awaxman11@gmail.com"}, "commit"=>"Request Beta Invite!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 20 Mar 2013 20:53:06 UTC +00:00], ["email", "awaxman11@gmail.com"], ["updated_at", Wed, 20 Mar 2013 20:53:06 UTC +00:00]]
+  Rendered user_mailer/sign_up.html.erb (0.1ms)
+  Rendered user_mailer/sign_up.text.erb (0.0ms)
+
+Sent mail to awaxman11@gmail.com (90ms)
+Date: Wed, 20 Mar 2013 16:53:06 -0400
+From: adam@flockhq.com
+To: awaxman11@gmail.com
+Message-ID: <514a21b290c5a_8b63feb2772412c758a@Adam-Waxmans-MacBook-Pro.local.mail>
+Subject: Thanks for signing up!
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_514a21b28b608_8b63feb2772412c7226";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+----==_mimepart_514a21b28b608_8b63feb2772412c7226
+Date: Wed, 20 Mar 2013 16:53:06 -0400
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <514a21b28ec24_8b63feb2772412c73ea@Adam-Waxmans-MacBook-Pro.local.mail>
+
+Welcome to example.com
+===============================================
+ 
+You have successfully signed up to example.com
+ 
+To login to the site, just follow this link: http://example.com/login.
+ 
+Thanks for joining and have a great day!
+
+
+----==_mimepart_514a21b28b608_8b63feb2772412c7226
+Date: Wed, 20 Mar 2013 16:53:06 -0400
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-ID: <514a21b28fda6_8b63feb2772412c7414@Adam-Waxmans-MacBook-Pro.local.mail>
+
+  <body>
+    <h1>Welcome to example.com</h1>
+    <p>
+      You have successfully signed up to example.com<br/>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://example.com/login.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+
+
+----==_mimepart_514a21b28b608_8b63feb2772412c7226--
+
+  [1m[35m (1.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/users/32
+Completed 302 Found in 123ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/users/32" for 127.0.0.1 at 2013-03-20 16:53:06 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "32"]]
+  Rendered users/show.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 16:53:06 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 16:53:06 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 16:53:06 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 16:53:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 16:53:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 16:53:06 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:53:06 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users/32" for 127.0.0.1 at 2013-03-20 16:55:59 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "32"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 26ms (Views: 15.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 16:55:59 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 16:55:59 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 16:55:59 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 16:55:59 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 16:55:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 16:55:59 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:55:59 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-20 16:56:06 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 16:56:06 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 16:56:06 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 16:56:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 16:56:06 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 16:56:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 16:56:06 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:56:06 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-03-20 16:56:14 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jQrvRwEv0ir2w4RRsvYj0skB5NWwc4r0t8OwFX68YYE=", "user"=>{"email"=>"awaxman11@gmail.com"}, "commit"=>"Request Beta Invite!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "users" ("created_at", "email", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 20 Mar 2013 20:56:14 UTC +00:00], ["email", "awaxman11@gmail.com"], ["updated_at", Wed, 20 Mar 2013 20:56:14 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mrollback transaction[0m
+Completed 500 Internal Server Error in 6ms
+
+NameError (undefined local variable or method `signup_welcome_email' for #<User:0x007fd64a719ee0>):
+  app/controllers/users_controller.rb:46:in `block in create'
+  app/controllers/users_controller.rb:45:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (61.9ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (74.2ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2013-03-20 16:58:20 -0400
+Processing by UsersController#new as HTML
+  Rendered users/_form.html.erb (189.3ms)
+  Rendered users/new.html.erb within layouts/application (191.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 207ms (Views: 206.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 16:58:20 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 16:58:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 16:58:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 16:58:20 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 16:58:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 16:58:20 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:58:20 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-03-20 16:58:28 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jQrvRwEv0ir2w4RRsvYj0skB5NWwc4r0t8OwFX68YYE=", "user"=>{"email"=>"awaxman11@gmail.com"}, "commit"=>"Create User"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Wed, 20 Mar 2013 20:58:28 UTC +00:00], ["email", "awaxman11@gmail.com"], ["updated_at", Wed, 20 Mar 2013 20:58:28 UTC +00:00]]
+  [1m[35m (0.7ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 4ms
+
+NameError (undefined local variable or method `signup_welcome_email' for #<User:0x007fd64a7da140>):
+  app/controllers/users_controller.rb:46:in `block in create'
+  app/controllers/users_controller.rb:45:in `create'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.9ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-03-20 16:59:43 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jQrvRwEv0ir2w4RRsvYj0skB5NWwc4r0t8OwFX68YYE=", "user"=>{"email"=>"awaxman11@gmail.com"}, "commit"=>"Create User"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "users" ("created_at", "email", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 20 Mar 2013 20:59:43 UTC +00:00], ["email", "awaxman11@gmail.com"], ["updated_at", Wed, 20 Mar 2013 20:59:43 UTC +00:00]]
+  [1m[36m (2.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/33
+Completed 302 Found in 18ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/users/33" for 127.0.0.1 at 2013-03-20 16:59:43 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "33"]]
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 20ms (Views: 17.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 16:59:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 16:59:43 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 16:59:43 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:43 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:43 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2013-03-20 16:59:49 -0400
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jQrvRwEv0ir2w4RRsvYj0skB5NWwc4r0t8OwFX68YYE=", "user"=>{"email"=>"awaxman11@gmail.com"}, "commit"=>"Request Beta Invite!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "email", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 20 Mar 2013 20:59:49 UTC +00:00], ["email", "awaxman11@gmail.com"], ["updated_at", Wed, 20 Mar 2013 20:59:49 UTC +00:00]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/users/34
+Completed 302 Found in 5ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/users/34" for 127.0.0.1 at 2013-03-20 16:59:49 -0400
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"34"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "34"]]
+  Rendered users/show.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 16:59:49 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 16:59:49 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:49 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 16:59:49 -0400
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:49 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:49 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2013-03-20 16:59:51 -0400
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered users/index.html.erb within layouts/application (10.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 28ms (Views: 24.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-20 16:59:51 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-20 16:59:51 -0400
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-20 16:59:51 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:51 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:51 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-20 16:59:51 -0400
+Served asset /users.js - 304 Not Modified (0ms)
