@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Flock</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <title><%= full_title(yield(:title)) %></title>
+    <link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <%= render 'layouts/shim'%>
+  </head>
+  <body>
+  	<div class = "site_wrapper">
+    	<%= yield %>
+    </div>
+  </body>
 </html>

@@ -1,4 +1,23 @@
 Flock::Application.routes.draw do
+  
+  root :to => 'static_pages#home'
+
+  match '/about', to: 'static_pages#about'
+  match '/team', to: 'static_pages#team'
+  match '/contact', to: 'static_pages#contact'
+  match '/jobs', to: 'static_pages#jobs'
+  match '/faq', to: 'static_pages#faq'
+
+  # get "static_pages/about"
+
+  # get "static_pages/team"
+
+  # get "static_pages/contact"
+
+  # get "static_pages/jobs"
+
+  # get "static_pages/faq"
+
   resources :users
 
   # The priority is based upon order of creation:
