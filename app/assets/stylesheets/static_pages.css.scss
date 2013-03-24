@@ -8,14 +8,28 @@
 COLOR TEMPLATE
 ********************/
 
-$lightGreen: #C3D7C5;
-$darkGreen: #689D60;
+$lightGreen: #CCDECA;
+$lightGreen2: #b9d4b6;
+$darkGreen: #669e5e;
 $darkdarkGreen: #6CA65B;
 $offWhite: #ECEBE8;
+$offWhite2: #dedbd3;
+$brownGray: #424242;
 
 /********************
 GENERAL
 ********************/
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-family: "Carme", sans-serif;
+}
+
+body {
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: none;
+}
 
 /********************
 HOME PAGE
@@ -49,11 +63,11 @@ header {
 	nav {
 		float: right;
 		ul {
-			padding: 15px 20px 0 0;
+			padding: 15px 15px 0 0;
 			li {
 				display: inline;
 				font-size: 15px;
-				padding: 0 5px 5px 0;
+				padding: 0 7.5px;
 				color: red;
 				
 				a {
@@ -71,15 +85,13 @@ header {
 	}
 }
 
-#flock_text {
-	text-align: center;
-	position: absolute;
-	top: 27.5px;
-	left: 32.5px;
-	font-family: "Hammersmith One", sans-serif;
-	color: $darkGreen;
-	font-size: 45px;
-	opacity: 1;
+
+.launch_logo {
+	position: relative;
+	height: 80px;
+	width: 80px;
+	top: 27px;
+	left: 15px;
 }
 
 #flock_text_box {
@@ -87,26 +99,38 @@ header {
 	background-color: white;
 	top: 22.5px;
 	left: 0;
-	width: 180px;
-	height: 65px;
+	width: 335px;
+	height: 90px;
+	opacity: 0.8;
+}
+
+
+#flock_text {
+	text-align: center;
+	position: absolute;
+	left: 105px;
+	top: 52.5px;
+	font-family: "Hammersmith One", sans-serif;
+	color: $darkGreen;
+	font-size: 80px;
 	opacity: 1;
 }
 
 #launch_text_box {
 	position: absolute;
-	top: 105px;
+	top: 140px;
 	left: 0;
 	text-align: left;
 	color: white;
 	opacity: 0.4;
 	background-color: black;
-	padding: 10px 32.5px;
+	padding: 15px 32.5px;
 }
 
 #launch_text {
 
 	font-size: 25px;
-	font-family: "Oxygen", sans-serif;
+	font-family: "Carme", sans-serif;
 
 	#offline {
 		font-size: 32px;
@@ -117,32 +141,37 @@ header {
 
 input[type=email] {
     position: absolute;
-    top: 250px;
+    top: 300px;
     border: 3px solid $lightGreen; 
     padding: 10px;
     background: white;
     margin: 10px 0 10px 0px;
     font-size: 1.2em;
     width: 220px;
-    font-family: "Oxygen";
+    font-family: "Carme";
     letter-spacing: 1.5px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
     border-radius: 0px;
     text-align: left;
-    padding-left: 30px
+    padding-left: 30px;
+    opacity: 0.8;
 }
 
 input[type=email]:focus {
     border: 3px solid $darkGreen; 
     outline: none;
-/*    color: #62635A;*/
+    opacity: 1.0;
 }
 
 input[type=email]:hover {
     border: 3px solid $darkGreen; 
     outline: none;
-/*    color: #62635A;*/
+    opacity: 1.0;
 }
 
 input[type=submit]{
@@ -152,7 +181,7 @@ input[type=submit]{
     color: white;
     font-size: 1.2em;
     width: 220px;
-    font-family: "Oxygen";
+    font-family: "Carme";
     border-radius: 0px;
     opacity: 1.0;
     -webkit-transition: all 0.5s ease-in-out;
@@ -160,7 +189,8 @@ input[type=submit]{
 	-o-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 	position: absolute;
-    top: 320px;
+    top: 370px;
+    opacity: 0.7;
 }
 
 input[type=submit]:hover {
@@ -181,6 +211,123 @@ input[type=submit]:active {
 .launch_screenshot {
 	visibility: hidden;
 }
+
+
+/********************
+ABOUT
+********************/
+
+.section_background1 { 
+	margin: 0;
+	width: auto;
+	height: auto;
+	padding: 0;
+	min-width: 500px;
+}
+
+#about_background_1 {
+	background-color: $darkGreen;
+}
+
+#about_background_2 {
+	background-color: $lightGreen;
+}
+
+#about_background_3 {
+	background-color: $offWhite;
+}
+
+#about_background_4 {
+	background-color: $lightGreen;
+}
+
+.base_table {
+	display: table;
+	width: 100%;
+}
+
+.table_cell {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.screenshot {
+	width: 45%;
+}
+
+.mobile {
+	display: none;
+}
+
+.about_screenshots {
+	max-height: 90%;
+	width: auto;
+}
+
+.about_heading_top {
+	font-size: 2.25em;
+	line-height: 2.25em;
+	color: $brownGray;
+	padding: 15px;
+}
+
+.about_text_highlight {
+	font-family: "Arvo", serif;
+	font-size: 2.5em;
+	color: $offWhite;
+}
+
+.about_text_box {
+	width: 100%;
+	margin: 0 auto; 
+	padding: 0 10%;
+}
+
+.about_heading {
+	text-align: left;
+	font-size: 5.5em;
+	font-family: "Arvo", serif;
+}
+
+#about_heading_2 {
+	color: $darkGreen;
+}
+
+#about_heading_3 {
+	color: $brownGray;
+}
+
+.about_text {
+	font-size: 2.7em;
+	color: $offWhite2;
+	text-align: left;
+}
+
+
+
+
+@media screen and (max-width: 330px) {
+	.about_heading_top {
+		font-size: 1.4em;
+		line-height: 1.5em;
+		padding: 10px
+	}
+
+	.about_text_highlight {
+		font-size: 1.7em;
+	}
+
+	.mobile {
+		display: table-cell;
+	}
+
+	.desktop {
+		display: none;
+	}
+}
+
+
 
 
 /********************
