@@ -9,11 +9,11 @@ COLOR TEMPLATE
 ********************/
 
 $lightGreen: #CCDECA;
-$lightGreen2: #b9d4b6;
+$lightGreen2: #a4c29d;
 $darkGreen: #669e5e;
 $darkdarkGreen: #6CA65B;
 $offWhite: #ECEBE8;
-$offWhite2: #dedbd3;
+$offWhite2: #c4bfb0;
 $brownGray: #424242;
 
 /********************
@@ -30,6 +30,83 @@ body {
     -webkit-text-size-adjust: 100%;
         -ms-text-size-adjust: none;
 }
+
+/********************
+HEADING
+********************/
+
+#static_page_header {
+	top: 0;
+	left: 0;
+	right: 0;
+	position: fixed;
+	background: white;
+	text-align: right;
+	height: 55px;
+}
+
+#static_header_nav {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 10px 10px 0 0;
+
+		li {
+			display: block;
+			width: 150px;
+			display: inline;
+			padding: 0 0px;
+
+			a {
+				  color: $darkGreen;
+				  padding: 0px 5px;
+				  line-height: 35px;
+				  text-decoration: none;
+				  font-size: 1.1em;
+				  font-family: 'carme';
+				  border-radius: 3px;
+				  -webkit-transition: all 0.1s ease-in-out;
+				  -moz-transition: all 0.1s ease-in-out;
+				  -o-transition: all 0.1s ease-in-out;
+				  transition: all color 0.1s ease-in-out;
+
+				  &:hover {
+				  	 color: $brownGray;
+				  }
+			}
+		}
+	}
+}
+
+.header_logo {
+	float: left;
+	position: fixed;
+	top: 5px;
+	left: 10px;
+}
+
+#flock_text_header {
+	position: absolute;
+	left: 60px;
+	top: 10px;
+	font-family: "Hammersmith One", sans-serif;
+	color: $darkGreen;
+	font-size: 40px;
+	opacity: 1;
+
+	a {
+
+		&:hover{
+			background-color: transparent;
+		}
+		
+	}
+}
+
+#blankspace {
+	height: 55px;
+}
+
 
 /********************
 HOME PAGE
@@ -52,34 +129,34 @@ HOME PAGE
   	background-size: cover;
 }
 
-header {
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 40px;
-	background-color: none;
-	opacity: 1;
+#static_header_nav {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 10px 10px 0 0;
 
-	nav {
-		float: right;
-		ul {
-			padding: 15px 15px 0 0;
-			li {
-				display: inline;
-				font-size: 15px;
-				padding: 0 7.5px;
-				color: red;
-				
-				a {
-					color: white;
+		.launch_header {
+			display: block;
+			width: 150px;
+			display: inline;
+			padding: 0 0px;
 
-					&:hover {
-						color: $darkGreen;
-						text-decoration: none;
-						background: none;
-					}
+			a {
+				  color: white;
+				  padding: 0px 5px;
+				  line-height: 35px;
+				  text-decoration: none;
+				  font-size: 1.1em;
+				  font-family: 'carme';
+				  border-radius: 3px;
+				  -webkit-transition: all 0.1s ease-in-out;
+				  -moz-transition: all 0.1s ease-in-out;
+				  -o-transition: all 0.1s ease-in-out;
+				  transition: all color 0.1s ease-in-out;
 
-				}
+				  &:hover {
+				  	 color: $darkGreen;
+				  }
 			}
 		}
 	}
@@ -238,6 +315,10 @@ ABOUT
 }
 
 #about_background_4 {
+	background-color: $darkGreen;
+}
+
+#about_background_5 {
 	background-color: $lightGreen;
 }
 
@@ -256,20 +337,37 @@ ABOUT
 	width: 45%;
 }
 
+.screenshot_2 {
+	width: 100%;
+}
+
+
 .mobile {
 	display: none;
 }
 
 .about_screenshots {
-	max-height: 90%;
+	max-height: 75%;
+	width: auto;
+}
+
+.about_screenshots_2 {
+	max-height: 50%;
 	width: auto;
 }
 
 .about_heading_top {
 	font-size: 2.25em;
 	line-height: 2.25em;
-	color: $brownGray;
+	color: $lightGreen2;
 	padding: 15px;
+}
+
+#scroll_down {
+	font-size: 1.2em;
+	color: $offWhite;
+	padding: 0;
+	line-height: 1em;
 }
 
 .about_text_highlight {
@@ -281,7 +379,15 @@ ABOUT
 .about_text_box {
 	width: 100%;
 	margin: 0 auto; 
-	padding: 0 10%;
+	padding-left: 15%;
+}
+
+.about_text_box_5 {
+	position: relative;
+	top: 2.5%;
+	width: 100%;
+	margin: 0 auto; 
+	padding: 0;
 }
 
 .about_heading {
@@ -298,16 +404,48 @@ ABOUT
 	color: $brownGray;
 }
 
+#about_heading_4 {
+	color: $offWhite;
+}
+
+#about_heading_5 {
+	color: $darkGreen;
+	text-align: center;
+	font-size: 4em;
+	line-height: 1em;
+	span {
+		font-family: "Carme", serif;
+		font-size: 0.5em;
+	}
+}
+
 .about_text {
 	font-size: 2.7em;
-	color: $offWhite2;
 	text-align: left;
+}
+
+#about_text_2 {
+	color: $lightGreen2;
+}
+
+#about_text_3 {
+	color: $offWhite2;
+}
+
+#about_text_4 {
+	color: $lightGreen2;
+}
+
+#about_text_5 {
+	color: $lightGreen2;
+	text-align: center;
+	font-size: 5em;
+	line-height: 0.9em
 }
 
 
 
-
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 500px) {
 	.about_heading_top {
 		font-size: 1.4em;
 		line-height: 1.5em;
@@ -327,7 +465,64 @@ ABOUT
 	}
 }
 
+/********************
+TEAM
+********************/
 
+#outer_team_table {
+	background-color: $lightGreen;
+}
+
+#team_table  {
+ 	padding: 0 7.5%;
+ 	width: 85%;
+}
+
+#team_background_1, #team_background_2, #team_background_3 {
+	background-color: $lightGreen;
+}
+
+.team_header {
+	font-family: "Arvo", serif;
+	color: $darkGreen;
+	padding-bottom: 10px;
+}
+
+.pic_links {
+
+	&:hover {
+		color: transparent;
+		background-color: transparent;
+	}
+
+}
+
+.team_pics {
+
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-box-shadow: 0 0 0px 2px $lightGreen;
+	-moz-box-shadow: 0 0 0px 2px $lightGreen;
+
+	min-height: 100px;
+	min-width: 100px;
+
+	&:hover {
+		border-radius: 100px;
+		-webkit-border-radius: 100px;
+		-moz-border-radius: 100px;
+		-webkit-box-shadow: 0 0 0px 2px $lightGreen2;
+		-moz-box-shadow: 0 0 0px 2px $lightGreen2;
+	}
+}
+
+.team_subtext {
+	font-family: "Carme", serif;
+	font-size: 1.2em;
+	padding-top: 10px;
+	line-height: 1.2em;
+}
 
 
 /********************

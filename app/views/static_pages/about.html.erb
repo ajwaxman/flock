@@ -1,8 +1,11 @@
 <% provide(:title, 'About') %>
 
+<%= render 'layouts/header' %>
+
 <div class="base_table">
 	<div class= "section_background table_cell" id="about_background_1">
-		<h1 class="about_heading_top">a <span class="about_text_highlight">simple</span> tool to help<br> friends connect <span class="about_text_highlight">offline</span></h1>
+		<h1 class="about_heading_top">a <span class="about_text_highlight">simple</span> tool to help<br> friends connect <span class="about_text_highlight">offline</span></h1><br>
+		<h3 id = "scroll_down">(scroll down to learn more)</h3>
 	</div>
 </div>
 
@@ -10,7 +13,7 @@
 	<div class= "section_background table_cell desktop" id="about_background_2">
 		<div class="about_text_box">
 			<h1 class="about_heading" id="about_heading_2">What.<br><br></h1>
-			<h2 class="about_text">Decide what you want to do.</h2>
+			<h2 class="about_text" id="about_text_2">Pick an activity.</h2>
 		</div>
 	</div>
 	<div class= "section_background table_cell desktop screenshot" id="about_background_2">
@@ -25,21 +28,50 @@
 	<div class= "section_background table_cell desktop" id="about_background_3">
 		<div class="about_text_box">
 			<h1 class="about_heading" id="about_heading_3">Where.<br><br></h1>
-			<h2 class="about_text">Decide what you want to do.</h2>
+			<h2 class="about_text" id="about_text_3">Choose your location.</h2>
 		</div>
 	</div>
 	<div class= "section_background table_cell desktop screenshot" id="about_background_3">
 		<%= image_tag "activity_screenshot.png", :class => "about_screenshots" %> 
 	</div>
-	<div class= "section_background table_cell mobile" id="about_background_2.1">
+	<div class= "section_background table_cell mobile" id="about_background_3.1">
 		<h1 class="about_text">Hello 2</h1>
 	</div>
 </div>
 
 <div class="base_table">
-	<div class= "section_background table_cell" id="about_background_5">
+	<div class= "section_background table_cell desktop" id="about_background_4">
+		<div class="about_text_box">
+			<h1 class="about_heading" id="about_heading_4">When.<br><br></h1>
+			<h2 class="about_text" id="about_text_4">Pick a time. Keep it casual.</h2>
+		</div>
+	</div>
+	<div class= "section_background table_cell desktop screenshot" id="about_background_4">
+		<%= image_tag "activity_screenshot.png", :class => "about_screenshots" %> 
+	</div>
+	<div class= "section_background table_cell mobile" id="about_background_4.1">
 		<h1 class="about_text">Hello 2</h1>
 	</div>
 </div>
 
+<div class="base_table">
+<!-- 	<div class= "section_background_2 table_cell desktop" id="about_background_5">
+		<div class="about_text_box_5">
+			<h1 class="about_heading" id="about_heading_5">Share <span>and</span> Explore.<br><br></h1>
+			<h2 class="about_text" id="about_text_5">Pick a time.</h2>
+		</div>
+	</div> -->
+	<div class= "section_background table_cell mobile" id="about_background_5.1">
+		<h1 class="about_text">Hello 2</h1>
+	</div>
+</div>
+<div class="base_table">
+	<div class= "section_background_2 table_cell desktop screenshot_2" id="about_background_5">
+		<div class="about_text_box_5">
+<!-- 			<h1 class="about_heading" id="about_heading_5">Share <span>and</span> Explore<br></h1> -->
+			<h2 class="about_text" id="about_text_5">Connect with friends</h2><br><br><br>
+			<%= image_tag "test_1.png", :class => "about_screenshots_2" %> 
+		</div>
+	</div>
+</div>
 

@@ -4,8 +4,9 @@ $(document).ready(function(){
 	$(window).load(function(){
 		
 		//change section height to height of window
-		var height = $(window).height()*0.75;
+		var height = $(window).height();
 		$(".section_background").height((height)+"px");
+		$(".section_background_2").height((height-55)+"px");
 
 	});
 	
@@ -13,8 +14,9 @@ $(document).ready(function(){
 	$(window).resize(function(){
 	
 		//change section height to height of window
-		var height = $(window).height()*0.75;
-		$(".section_background").height((height)+"px"); 
+		var height = $(window).height();
+		$(".section_background").height((height)+"px");
+		$(".section_background_2").height((height-55)+"px");
 
 
 	});

@@ -1,15 +1,18 @@
-<header class = "navbar navbar-static-top">
-	<div class= "navbar-inner">
-		<div class = "container">
-		<%= link_to "sample app", root_path, id: "logo" %>
-			<nav>
-				<ul class= "nav pull-right">
+<header id ="static_page_header" class="desktop">
+	<!-- Flock Logo -->
+	<%= link_to root_path, rel: 'tooltip', relative: true do %>
+	  <%= image_tag 'Website_Launch_Logo.png', size: '45x45', alt: 'Flock Logo', class: 'header_logo' %>
+	<% end %>
+	<!-- Flock Text -->
+	<h1 id="flock_text_header">Flock</h1>
+			<nav id="static_header_nav">
+				<ul>
 					<li><%= link_to "Home",    root_path %></li>
 					<li><%= link_to "About",    about_path %></li>
 					<li><%= link_to "Team", team_path %></li>
 					<li><%= link_to "Contact", contact_path %></li>
 				</ul>
 			</nav>
-		</div>
-	</div>
+	<div id="blankspace"></div>
  </header>
+
