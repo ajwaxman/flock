@@ -62553,3 +62553,89 @@ Processing by StaticPagesController#about as HTML
   Rendered static_pages/about.html.erb within layouts/application (19.8ms)
   Rendered layouts/_shim.html.erb (0.0ms)
 Completed 200 OK in 78ms (Views: 77.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-24 20:02:41 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-24 20:05:20 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered static_pages/about.html.erb within layouts/application (19.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+Completed 200 OK in 84ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-24 20:06:16 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-24 20:06:27 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-24 20:10:37 -0400
+Connecting to database specified by database.yml
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (3.1ms)
+  Rendered static_pages/about.html.erb within layouts/application (53.6ms)
+Compiled scaffolds.css  (136ms)  (pid 11183)
+Compiled static_pages.css  (3456ms)  (pid 11183)
+Compiled users.css  (2ms)  (pid 11183)
+Compiled application.css  (3682ms)  (pid 11183)
+Compiled jquery.js  (51ms)  (pid 11183)
+Compiled jquery_ujs.js  (0ms)  (pid 11183)
+Compiled static_pages.js  (0ms)  (pid 11183)
+Compiled users.js  (641ms)  (pid 11183)
+Compiled application.js  (831ms)  (pid 11183)
+  Rendered layouts/_shim.html.erb (0.7ms)
+Completed 200 OK in 4887ms (Views: 4886.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-24 20:10:44 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-24 20:10:44 -0400
+Served asset /static_pages.css - 200 OK (25ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-24 20:10:44 -0400
+Served asset /users.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-24 20:10:44 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-24 20:10:44 -0400
+Served asset /jquery.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-24 20:10:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-24 20:10:44 -0400
+Served asset /static_pages.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-24 20:10:44 -0400
+Served asset /users.js - 304 Not Modified (2ms)
