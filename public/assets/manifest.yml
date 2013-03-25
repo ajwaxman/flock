@@ -17,10 +17,10 @@ test_1.png: test_1-a42714258212200c683559b78c39a0d6.png
 test_1/index.png: test_1-a42714258212200c683559b78c39a0d6.png
 website_logo.psd: website_logo-0c49f87afd62ddf6790af0056d9cbbb2.psd
 website_logo/index.psd: website_logo-0c49f87afd62ddf6790af0056d9cbbb2.psd
-application.js: application-92e0cb9c3bbc0296be357f06fa7cd6ae.js
-application/index.js: application-92e0cb9c3bbc0296be357f06fa7cd6ae.js
-application.css: application-c1b451589dc71c078011633d9b0fba94.css
-application/index.css: application-c1b451589dc71c078011633d9b0fba94.css
+application.js: application-b832f19e60cf2af8364d9049fb6a2ae0.js
+application/index.js: application-b832f19e60cf2af8364d9049fb6a2ae0.js
+application.css: application-77bb0d8a159757f576a95e4afcebf386.css
+application/index.css: application-77bb0d8a159757f576a95e4afcebf386.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png
