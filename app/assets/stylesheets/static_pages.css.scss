@@ -454,6 +454,20 @@ ABOUT
 	line-height: 0.9em
 }
 
+.press_u {
+	font-size: 1em;
+	position: fixed;
+	bottom: 10px;
+	right: 25px;
+	color: $darkGreen;
+	text-align: center;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	display: none;
+}
+
 
 
 @media screen and (max-width: 500px) {
@@ -510,22 +524,19 @@ TEAM
 
 .team_pics {
 
-	border-radius: 100px;
-	-webkit-border-radius: 100px;
-	-moz-border-radius: 100px;
-	-webkit-box-shadow: 0 0 0px 2px $lightGreen;
-	-moz-box-shadow: 0 0 0px 2px $lightGreen;
+	// border-radius: 100px;
+	// -webkit-border-radius: 100px;
+	// -moz-border-radius: 100px;
+	// -webkit-box-shadow: 0 0 0px 2px $lightGreen;
+	// -moz-box-shadow: 0 0 0px 2px $lightGreen;
 
-	min-height: 100px;
-	min-width: 100px;
-
-	&:hover {
-		border-radius: 100px;
-		-webkit-border-radius: 100px;
-		-moz-border-radius: 100px;
-		-webkit-box-shadow: 0 0 0px 2px $lightGreen2;
-		-moz-box-shadow: 0 0 0px 2px $lightGreen2;
-	}
+	// &:hover {
+	// 	border-radius: 100px;
+	// 	-webkit-border-radius: 100px;
+	// 	-moz-border-radius: 100px;
+	// 	-webkit-box-shadow: 0 0 0px 2px $lightGreen2;
+	// 	-moz-box-shadow: 0 0 0px 2px $lightGreen2;
+	// }
 }
 
 .team_subtext {

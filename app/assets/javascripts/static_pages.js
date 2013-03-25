@@ -16,6 +16,22 @@ $(document).ready(function(){
 		$(".section_background_2").height((height-55)+"px");
 	});
 
+	
+	$(window).scroll(function(){
+
+		var scrollTop = $(window).scrollTop();
+		var height = $(window).height();
+		var scroll = (height-55)*4;
+
+		if ($(this).scrollTop() >= (scroll)) {
+			$(".press_u").fadeIn(200);
+		} else {
+			$(".press_u").fadeOut(200);
+		}
+	});
+
+
+	// About page scrolling
 	jQuery(function () {
 
 	  // $("#next").click(scrollToNew);
