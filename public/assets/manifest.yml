@@ -19,10 +19,8 @@ website_logo.psd: website_logo-0c49f87afd62ddf6790af0056d9cbbb2.psd
 website_logo/index.psd: website_logo-0c49f87afd62ddf6790af0056d9cbbb2.psd
 application.js: application-92e0cb9c3bbc0296be357f06fa7cd6ae.js
 application/index.js: application-92e0cb9c3bbc0296be357f06fa7cd6ae.js
-application.css: application-7f532315afc836d01f1631e260b8b665.css
-application/index.css: application-7f532315afc836d01f1631e260b8b665.css
-static_pages.css: static_pages-92c6a6cda5ab22c663d408ac7deedcd7.css
-static_pages/index.css: static_pages-92c6a6cda5ab22c663d408ac7deedcd7.css
+application.css: application-c1b451589dc71c078011633d9b0fba94.css
+application/index.css: application-c1b451589dc71c078011633d9b0fba94.css
 glyphicons-halflings-white.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings-white/index.png: glyphicons-halflings-white-6cccd17a7aed91dbc0157d343c68c0d9.png
 glyphicons-halflings.png: glyphicons-halflings-2851b489e8c39f8fad44fc10efb99c3e.png

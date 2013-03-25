@@ -62,7 +62,7 @@ HEADING
 				  padding: 0px 5px;
 				  line-height: 35px;
 				  text-decoration: none;
-				  font-size: 1.1em;
+				  font-size: 1.8em;
 				  font-family: 'carme';
 				  border-radius: 3px;
 				  -webkit-transition: all 0.1s ease-in-out;
@@ -72,6 +72,7 @@ HEADING
 
 				  &:hover {
 				  	 color: $brownGray;
+				  	 background: transparent;
 				  }
 			}
 		}
@@ -129,39 +130,48 @@ HOME PAGE
   	background-size: cover;
 }
 
-#static_header_nav {
-	ul {
-		list-style: none;
-		margin: 0;
-		padding: 10px 10px 0 0;
+header#launch_header_nav {
 
-		.launch_header {
-			display: block;
-			width: 150px;
-			display: inline;
-			padding: 0 0px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background: transparent;
+	text-align: right;
+	height: 55px;
 
-			a {
-				  color: white;
-				  padding: 0px 5px;
-				  line-height: 35px;
-				  text-decoration: none;
-				  font-size: 1.1em;
-				  font-family: 'carme';
-				  border-radius: 3px;
-				  -webkit-transition: all 0.1s ease-in-out;
-				  -moz-transition: all 0.1s ease-in-out;
-				  -o-transition: all 0.1s ease-in-out;
-				  transition: all color 0.1s ease-in-out;
+	nav {
 
-				  &:hover {
-				  	 color: $darkGreen;
-				  }
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 10px 10px 0 0;
+
+			li {
+				width: 150px;
+				display: inline;
+				padding: 0 0px;
+
+				a {
+					  color: white;
+					  padding: 0px 5px;
+					  line-height: 35px;
+					  text-decoration: none;
+					  font-size: 1.1em;
+					  font-family: 'carme';
+					  border-radius: 3px;
+					  -webkit-transition: all 0.1s ease-in-out;
+					  -moz-transition: all 0.1s ease-in-out;
+					  -o-transition: all 0.1s ease-in-out;
+					  transition: all color 0.1s ease-in-out;
+
+					  &:hover {
+					  	 color: $darkGreen;
+					  }
+				}
 			}
 		}
 	}
 }
-
 
 .launch_logo {
 	position: relative;

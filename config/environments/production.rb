@@ -20,7 +20,7 @@ Flock::Application.configure do
   # Generate digests for assets URLs
   config.assets.digest = true
 
-  config.assets.precompile += ['static_pages.css']
+  # config.assets.precompile += ['static_pages.css']
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH

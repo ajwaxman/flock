@@ -34,4 +34,8 @@ Flock::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  # config.assets.precompile += ['static_pages.css']
+
+  # config.assets.compile = false
 end
