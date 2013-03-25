@@ -72519,3 +72519,214 @@ Migrating to CreateUsers (20130320161649)
   [1m[35m (0.3ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "beta_tester" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
 SQLite3::SQLException: table "users" already exists: CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "beta_tester" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
   [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-25 11:39:40 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-25 11:41:08 -0400
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (25.4ms)
+Compiled scaffolds.css  (76ms)  (pid 12506)
+Compiled static_pages.css  (3236ms)  (pid 12506)
+Compiled users.css  (2ms)  (pid 12506)
+Compiled application.css  (3389ms)  (pid 12506)
+Compiled jquery.js  (47ms)  (pid 12506)
+Compiled jquery_ujs.js  (0ms)  (pid 12506)
+Compiled static_pages.js  (0ms)  (pid 12506)
+Compiled users.js  (87ms)  (pid 12506)
+Compiled application.js  (163ms)  (pid 12506)
+  Rendered layouts/_shim.html.erb (0.8ms)
+Completed 200 OK in 3828ms (Views: 3823.3ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /static_pages.css - 200 OK (66ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /application.css - 200 OK (24ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /users.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /jquery_ujs.js - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /jquery.js - 200 OK (4ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /static_pages.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /users.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /application.js - 200 OK (9ms)
+
+
+Started GET "/assets/launch_background.png" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /launch_background.png - 200 OK (11ms)
+
+
+Started GET "/assets/launch_screenshot.png" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /launch_screenshot.png - 200 OK (8ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-25 11:41:13 -0400
+Served asset /Website_Launch_Logo.png - 200 OK (5ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-25 11:41:16 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered static_pages/about.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-25 11:41:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-25 11:41:17 -0400
+Served asset /test_1.png - 200 OK (5ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-25 11:41:17 -0400
+Served asset /activity_screenshot.png - 200 OK (6ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.4ms)
+Compiled about_page/about_page.js  (0ms)  (pid 12506)
+Compiled application.js  (14ms)  (pid 12506)
+  Rendered layouts/_shim.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/about_page/about_page.js?body=1" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /about_page/about_page.js - 200 OK (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-25 11:43:02 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateUsers (20130320161649)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "beta_tester" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+SQLite3::SQLException: table "users" already exists: CREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "beta_tester" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
