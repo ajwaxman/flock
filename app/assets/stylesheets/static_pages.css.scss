@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+// <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">;
 
 /********************
 COLOR TEMPLATE
@@ -315,7 +315,7 @@ ABOUT
 }
 
 #about_background_1 {
-	background-color: $darkGreen;
+	background-color: white;
 }
 
 #about_background_2 {
@@ -545,6 +545,14 @@ TEAM
 	font-size: 1.2em;
 	padding-top: 10px;
 	line-height: 1.2em;
+}
+
+/********************
+CONTACT
+********************/
+
+#about_background_1 {
+	background-color: $darkGreen;
 }
 
 

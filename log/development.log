@@ -77152,3 +77152,893 @@ Processing by StaticPagesController#home as HTML
   Rendered static_pages/home.html.erb within layouts/application (2.4ms)
   Rendered layouts/_shim.html.erb (0.0ms)
 Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 11:13:38 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:13:43 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered static_pages/about.html.erb within layouts/application (11.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 37ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2013-03-27 11:13:52 -0400
+Processing by StaticPagesController#team as HTML
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered static_pages/team.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/team" for 127.0.0.1 at 2013-03-27 11:19:51 -0400
+Processing by StaticPagesController#team as HTML
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered static_pages/team.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-27 11:19:55 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered static_pages/contact.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-27 11:27:44 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered static_pages/contact.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-27 11:28:15 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered static_pages/contact.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-27 11:29:18 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered static_pages/contact.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-27 11:29:48 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered static_pages/contact.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-27 11:30:05 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered static_pages/contact.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-27 11:30:12 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered static_pages/contact.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-27 11:30:22 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered static_pages/contact.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-27 11:30:59 -0400
+Processing by StaticPagesController#contact as HTML
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered static_pages/contact.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:32:42 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered static_pages/about.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:32:50 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered static_pages/about.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:32:57 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:33:24 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:33:24 -0400
+Compiled scaffolds.css  (28ms)  (pid 12657)
+Error compiling asset application.css:
+Sass::SyntaxError: Invalid CSS after "...rt "bootstrap";": expected selector or at-rule, was "<meta name="vie..."
+  (in /Users/awaxman/code/flock/app/assets/stylesheets/static_pages.css.scss)
+Served asset /application.css - 500 Internal Server Error
+
+
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:33:25 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:33:25 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:33:25 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:33:25 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:33:52 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (2.7ms)
+  Rendered static_pages/about.html.erb within layouts/application (4.6ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:33:52 -0400
+Error compiling asset application.css:
+Sass::SyntaxError: Invalid CSS after "...rt "bootstrap";": expected selector or at-rule, was "<meta name="vie..."
+  (in /Users/awaxman/code/flock/app/assets/stylesheets/static_pages.css.scss)
+Served asset /application.css - 500 Internal Server Error
+
+
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:33:52 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:33:52 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:33:52 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:33:52 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:33:59 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered static_pages/about.html.erb within layouts/application (4.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:34:00 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:34:00 -0400
+Compiled static_pages.css  (3618ms)  (pid 12657)
+Compiled users.css  (4ms)  (pid 12657)
+Compiled application.css  (3648ms)  (pid 12657)
+Served asset /application.css - 200 OK (3672ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:34:03 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:34:03 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:34:03 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:34:06 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:34:06 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:34:06 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:34:06 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:34:06 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:34:06 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:34:27 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.5ms)
+  Rendered static_pages/about.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:34:27 -0400
+Compiled static_pages.css  (1537ms)  (pid 12657)
+Compiled application.css  (3ms)  (pid 12657)
+Served asset /application.css - 200 OK (1576ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:34:29 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:34:29 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:34:29 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:34:29 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:34:34 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:34:34 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:34:34 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:34:34 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:34:34 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:34:34 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-27 11:34:59 -0400
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:34:59 -0400
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:34:59 -0400
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/launch_background.png" for 127.0.0.1 at 2013-03-27 11:34:59 -0400
+Served asset /launch_background.png - 200 OK (0ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:34:59 -0400
+Served asset /Website_Launch_Logo.png - 200 OK (0ms)
+
+
+Started GET "/assets/launch_screenshot.png" for 127.0.0.1 at 2013-03-27 11:34:59 -0400
+Served asset /launch_screenshot.png - 200 OK (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:35:00 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:35:00 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:35:00 -0400
+Served asset /test_1.png - 200 OK (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:35:00 -0400
+Served asset /activity_screenshot.png - 200 OK (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:36:13 -0400
+Connecting to database specified by database.yml
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (3.2ms)
+  Rendered static_pages/about.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:36:14 -0400
+Served asset /application.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:36:14 -0400
+Compiled jquery.js  (3ms)  (pid 14205)
+Compiled jquery_ujs.js  (0ms)  (pid 14205)
+Compiled about_page/about_page.js  (1ms)  (pid 14205)
+Compiled static_pages.js  (0ms)  (pid 14205)
+Compiled users.js  (172ms)  (pid 14205)
+Compiled application.js  (275ms)  (pid 14205)
+Served asset /application.js - 304 Not Modified (358ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:36:14 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (12ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:36:14 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (10ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:36:14 -0400
+Served asset /test_1.png - 304 Not Modified (13ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:36:17 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:36:17 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:36:17 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:36:17 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:36:17 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:36:17 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:36:50 -0400
+Connecting to database specified by database.yml
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (3.0ms)
+  Rendered static_pages/about.html.erb within layouts/application (14.9ms)
+  Rendered layouts/_shim.html.erb (0.3ms)
+Completed 200 OK in 75ms (Views: 74.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:36:51 -0400
+Compiled scaffolds.css  (50ms)  (pid 14214)
+Compiled static_pages.css  (3317ms)  (pid 14214)
+Compiled users.css  (2ms)  (pid 14214)
+Compiled application.css  (3404ms)  (pid 14214)
+Served asset /application.css - 304 Not Modified (3429ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:36:54 -0400
+Compiled jquery.js  (71ms)  (pid 14214)
+Compiled jquery_ujs.js  (0ms)  (pid 14214)
+Compiled about_page/about_page.js  (1ms)  (pid 14214)
+Compiled static_pages.js  (0ms)  (pid 14214)
+Compiled users.js  (95ms)  (pid 14214)
+Compiled application.js  (231ms)  (pid 14214)
+Served asset /application.js - 304 Not Modified (312ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:36:55 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (14ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:36:55 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (11ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:36:55 -0400
+Served asset /test_1.png - 304 Not Modified (11ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:36:58 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:36:58 -0400
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:36:58 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:36:58 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:36:58 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:36:58 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:37:41 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered static_pages/about.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:37:42 -0400
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:37:42 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:37:42 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:37:42 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:37:42 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:37:43 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:37:43 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:37:43 -0400
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:37:43 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:37:43 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:37:43 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:37:52 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:37:52 -0400
+Compiled static_pages.css  (1592ms)  (pid 14214)
+Compiled application.css  (3ms)  (pid 14214)
+Served asset /application.css - 200 OK (1695ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:37:54 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:37:54 -0400
+Served asset /test_1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:37:54 -0400
+Served asset /Website_Launch_Logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:37:54 -0400
+Served asset /activity_screenshot.png - 304 Not Modified (0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:38:55 -0400
+Connecting to database specified by database.yml
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (3.4ms)
+  Rendered static_pages/about.html.erb within layouts/application (13.2ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:38:56 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application.css"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:38:57 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application.js"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:38:57 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/Website_Launch_Logo.png"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:38:57 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/activity_screenshot.png"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:38:57 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/test_1.png"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:39:09 -0400
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered static_pages/about.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:39:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application.js"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:39:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/application.css"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:39:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/Website_Launch_Logo.png"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:39:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/activity_screenshot.png"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:39:09 -0400
+
+ActionController::RoutingError (No route matches [GET] "/assets/test_1.png"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /usr/local/rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /usr/local/rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-27 11:39:47 -0400
+Connecting to database specified by database.yml
+Processing by StaticPagesController#about as HTML
+  Rendered layouts/_header.html.erb (2.8ms)
+  Rendered static_pages/about.html.erb within layouts/application (11.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-03-27 11:39:48 -0400
+Served asset /application.js - 200 OK (18ms)
+
+
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-03-27 11:39:48 -0400
+Served asset /application.css - 200 OK (27ms)
+
+
+Started GET "/assets/Website_Launch_Logo.png" for 127.0.0.1 at 2013-03-27 11:39:48 -0400
+Served asset /Website_Launch_Logo.png - 200 OK (51ms)
+
+
+Started GET "/assets/activity_screenshot.png" for 127.0.0.1 at 2013-03-27 11:39:48 -0400
+Served asset /activity_screenshot.png - 200 OK (2ms)
+
+
+Started GET "/assets/test_1.png" for 127.0.0.1 at 2013-03-27 11:39:48 -0400
+Served asset /test_1.png - 200 OK (2ms)

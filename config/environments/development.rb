@@ -37,4 +37,6 @@ Flock::Application.configure do
 
   # config.assets.precompile += ['static_pages.css']
   config.assets.compile = true 
+
+  config.serve_static_assets = false
 end
