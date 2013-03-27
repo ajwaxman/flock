@@ -6,6 +6,7 @@ $(document).ready(function(){
 		var height = $(window).height();
 		$(".section_background").height((height)+"px");
 		$(".section_background_2").height((height-55)+"px");
+		$("#launch_splash_mobile").hide().fadeIn(3000);
 	});
 	
 	// when window us resizes
@@ -83,6 +84,13 @@ $(document).ready(function(){
 	  });
 
 	});
+
+
+		var myLinks = document.getElementsByTagName('a');
+		for(var i = 0; i < myLinks.length; i++){
+	   	myLinks[i].addEventListener('touchstart', function(){this.className = "hover";}, false);
+	   	myLinks[i].addEventListener('touchend', function(){this.className = "";}, false); 	
+	}
 
 
 });

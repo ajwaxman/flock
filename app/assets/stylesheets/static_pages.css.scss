@@ -232,77 +232,191 @@ header#launch_header_nav {
 	}
 }
 
-input[type=email] {
-    position: absolute;
-    top: 300px;
-    border: 3px solid $lightGreen; 
-    padding: 10px;
-    background: white;
-    margin: 10px 0 10px 0px;
-    font-size: 1.2em;
-    width: 220px;
-    font-family: "Carme";
-    letter-spacing: 1.5px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    -webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-    border-radius: 0px;
-    text-align: left;
-    padding-left: 30px;
-    opacity: 0.8;
-}
+	#desktop_form {
+		input[type=email] {
+		    position: absolute;
+		    top: 300px;
+		    border: 3px solid $lightGreen; 
+		    padding: 10px;
+		    background: white;
+		    margin: 10px 0 10px 0px;
+		    font-size: 1.2em;
+		    width: 220px;
+		    font-family: "Carme";
+		    letter-spacing: 1.5px;
+		    -webkit-border-radius: 0px;
+		    -moz-border-radius: 0px;
+		    -webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		    border-radius: 0px;
+		    text-align: left;
+		    padding-left: 30px;
+		    opacity: 0.8;
+		}
 
-input[type=email]:focus {
-    border: 3px solid $darkGreen; 
-    outline: none;
-    opacity: 1.0;
-}
+		input[type=email]:focus {
+		    border: 3px solid $darkGreen; 
+		    outline: none;
+		    opacity: 1.0;
+		}
 
-input[type=email]:hover {
-    border: 3px solid $darkGreen; 
-    outline: none;
-    opacity: 1.0;
-}
+		input[type=email]:hover {
+		    border: 3px solid $darkGreen; 
+		    outline: none;
+		    opacity: 1.0;
+		}
 
-input[type=submit]{
-    border: 0px solid transparent;
-    padding: 10px;
-    background: $darkGreen;
-    color: white;
-    font-size: 1.2em;
-    width: 220px;
-    font-family: "Carme";
-    border-radius: 0px;
-    opacity: 1.0;
-    -webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
-	position: absolute;
-    top: 370px;
-    opacity: 0.7;
-}
+		input[type=submit]{
+		    border: 0px solid transparent;
+		    padding: 10px;
+		    background: $darkGreen;
+		    color: white;
+		    font-size: 1.2em;
+		    width: 220px;
+		    font-family: "Carme";
+		    border-radius: 0px;
+		    opacity: 1.0;
+		    -webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+			position: absolute;
+		    top: 370px;
+		    opacity: 0.7;
+		}
 
-input[type=submit]:hover {
-    border: 0px solid #F4F4EE;
-    padding: 10px;
-    background: $darkGreen;
-    color: white;
-    font-size: 1.2em;
-    width: 265px;
-    opacity: 1;
-}
+		input[type=submit]:hover {
+		    border: 0px solid #F4F4EE;
+		    padding: 10px;
+		    background: $darkGreen;
+		    color: white;
+		    font-size: 1.2em;
+		    width: 265px;
+		    opacity: 1;
+		}
 
-input[type=submit]:active {
-   	width: 265px;
-}
-
+		input[type=submit]:active {
+		   	width: 265px;
+		}
+	}
 
 .launch_screenshot {
 	visibility: hidden;
+}
+
+/****HOMEPAGE RESPONSIVE****/
+
+@media screen and (max-width: 320px) {
+
+	#launch_splash {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		overflow: hidden;
+
+		background: url(launch_background.png) no-repeat right right fixed;
+	  	-webkit-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
+	}
+	.about_text_highlight {
+		font-size: 1.7em;
+	}
+
+	.mobile {
+		display: table-cell;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	#launch_splash_mobile {
+		opacity: 0.7;
+		background-color: $lightGreen;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		display: hidden;
+	}
+
+	.launch_logo {
+		
+	}
+
+	#mobile_form {
+		input[type=email] {
+		    position: absolute;
+		    top: 300px;
+		    border: 3px solid $lightGreen; 
+		    padding: 10px;
+		    background: white;
+		    margin: 10px 0 10px 0px;
+		    font-size: 1.2em;
+		    width: 220px;
+		    font-family: "Carme";
+		    letter-spacing: 1.5px;
+		    -webkit-border-radius: 0px;
+		    -moz-border-radius: 0px;
+		    -webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+		    border-radius: 0px;
+		    text-align: left;
+		    padding-left: 30px;
+		    opacity: 0.8;
+		}
+
+		input[type=email]:focus {
+		    border: 3px solid $darkGreen; 
+		    outline: none;
+		    opacity: 1.0;
+		}
+
+		input[type=email]:hover {
+		    border: 3px solid $darkGreen; 
+		    outline: none;
+		    opacity: 1.0;
+		}
+
+		input[type=submit]{
+		    border: 0px solid transparent;
+		    padding: 10px;
+		    background: $darkGreen;
+		    color: white;
+		    font-size: 1.2em;
+		    width: 220px;
+		    font-family: "Carme";
+		    border-radius: 0px;
+		    opacity: 1.0;
+		    -webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+			position: absolute;
+		    top: 370px;
+		    opacity: 0.7;
+		}
+
+		input[type=submit]:hover {
+		    border: 0px solid #F4F4EE;
+		    padding: 10px;
+		    background: $darkGreen;
+		    color: white;
+		    font-size: 1.2em;
+		    width: 265px;
+		    opacity: 1;
+		}
+
+		input[type=submit]:active {
+		   	width: 265px;
+		}
+	}
+
+	
 }
 
 
@@ -574,31 +688,31 @@ img#connect_pics {
 RESPONSIVE APPLIED
 ********************/
 
-@media screen and (max-width: 700px) {
+// @media screen and (max-width: 700px) {
 	
-	/****** LAUNCH SCREEN *******/
-	#launch_text {
-		font-size: 15px;
-		#offline {
-			font-size: 22.5px;
-		}
-	}
-}
+// 	/****** LAUNCH SCREEN *******/
+// 	#launch_text {
+// 		font-size: 15px;
+// 		#offline {
+// 			font-size: 22.5px;
+// 		}
+// 	}
+// }
 
 
-@media screen and (max-width: 500px) {
+// @media screen and (max-width: 500px) {
 	
-	/****** LAUNCH SCREEN *******/
+// 	/****** LAUNCH SCREEN *******/
 
-	#launch_splash {
-		background: none;
-	}
+// 	#launch_splash {
+// 		background: none;
+// 	}
 
-	.launch_screenshot {
-		visibility: visible;
-	}
+// 	.launch_screenshot {
+// 		visibility: visible;
+// 	}
 
-}
+// }
 
 
 

@@ -1,42 +1,63 @@
 <div id="launch_splash">
+		<div id="launch_splash_mobile">
+		</div>
+
 	
-	<div id="flock_text_box"></div>
-	<h1 id="flock_text">Flock</h1>
-	<img ><%= image_tag "Website_Launch_Logo.png", :class => "launch_logo" %><img>
+		<div id="flock_text_box" class="desktop"></div>
+			<h1 id="flock_text" class= "desktop">Flock</h1>
+		<img ><%= image_tag "Website_Launch_Logo.png", :class => "launch_logo desktop" %><img>
+		
+		
+		<div id="launch_text_box" class="desktop">
+			<h1 id="launch_text">Bring the party <span id="offline">OFFLINE</span></h1>
+		</div>
+
+
+
+			<%= form_for User.new do |f| %>
+				
+			<!-- Desktop Form -->	
+
+			 <div id="desktop_form">
+			  <div class="field desktop">
+			    <%= f.email_field :email, :placeholder => "hopefullynot@aol.com"%>
+			  </div>
+
+			  <div class="actions desktop">
+			    <%= f.submit "Request Beta Invite!" %>
+			  </div>
+			 </div>
+
+			<!-- Mobile Form -->	
+
+			<div id="desktop_form">  
+			  <div class="field mobile">
+			    <%= f.email_field :email, :placeholder => "hopefullynot@aol.com" %>
+			  </div>
+
+<!-- 			  <div class="actions mobile">
+			    <%= f.submit "Request Beta Invite!" %>
+			  </div> -->
+			 </div>
+				
+			<% end %>
+
+		
+
+		<header id="launch_header_nav" class ="desktop">	
+			<nav>
+				<ul>
+					<li class="launch_header"><%= link_to "About", about_path, :class => "linka"%></li>
+					<li class="launch_header"><%= link_to "Team", team_path, :class => "links" %></li>
+					<li class="launch_header"><%= link_to "Contact", contact_path, :class => "links" %></li>
+				</ul>
+			</nav>
+		</header>
+		<img ><%= image_tag "launch_screenshot.png", :class => "launch_screenshot" %><img>
+
+		<!-- <h2>Flock<br> A <span> simple </span> tool to help friends connect <span>offline</span> -->
 	
-	
-	<div id="launch_text_box">
-		<h1 id="launch_text">Bring the party <span id="offline">OFFLINE</span></h1>
-	</div>
 
-
-
-		<%= form_for User.new do |f| %>
-			
-		  <div class="field">
-		    <%= f.email_field :email, :placeholder => "hopefullynot@aol.com" %>
-		  </div>
-
-		  <div class="actions">
-		    <%= f.submit "Request Beta Invite!" %>
-
-		  </div>
-			
-		<% end %>
-	
-
-	<header id="launch_header_nav">	
-		<nav>
-			<ul>
-				<li class="launch_header"><%= link_to "About", about_path, :class => "linka"%></li>
-				<li class="launch_header"><%= link_to "Team", team_path, :class => "links" %></li>
-				<li class="launch_header"><%= link_to "Contact", contact_path, :class => "links" %></li>
-			</ul>
-		</nav>
-	</header>
-	<img ><%= image_tag "launch_screenshot.png", :class => "launch_screenshot" %><img>
-
-	<!-- <h2>Flock<br> A <span> simple </span> tool to help friends connect <span>offline</span> -->
 </div>
 
 
