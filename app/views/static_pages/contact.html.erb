@@ -4,7 +4,17 @@
 
 <div class="base_table">
 	<div class= "section_background table_cell" id="contact_background_1">
-		<h1 class="about_heading_top">Drop us a Line</h1><br>
-		<h3 id = "scroll_down">(scroll down or press 'n' to learn more)</h3>
+
+		<h1 class="contact_heading">Let's Connect.</h1><br><br>
+
+		<%= link_to 'https:twitter.com/flockwme', class: 'pic_links', rel: 'tooltip', relative: true do %>
+		  		<%= image_tag 'Connect_Twitter_Light.png', mouseover: "Connect_Twitter_Dark.png", alt: 'Twitter', class: 'pic_link_twitter', id: "connect_pics" %>
+		<% end %>
+		<%= link_to 'https:twitter.com/ajwaxman', class: 'pic_links', rel: 'tooltip', relative: true do %>
+		  		<%= image_tag 'Connect_FB_Light.png', mouseover: "Connect_FB_Dark.png", alt: 'Facebook', class: 'pic_link_twitter', id: "connect_pics" %>
+		<% end %>
+		<%= link_to 'mailto:hello@flockhq.com', class: 'pic_links', rel: 'tooltip', relative: true do %>
+		  		<%= image_tag 'Connect_Mail_Light.png', mouseover: "Connect_Mail_Dark.png", alt: 'Facebook', class: 'pic_link_twitter', id: "connect_pics" %>
+		<% end %>
 	</div>
 </div>

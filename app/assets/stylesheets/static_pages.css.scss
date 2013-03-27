@@ -32,6 +32,10 @@ body {
         -ms-text-size-adjust: none;
 }
 
+a:hover {
+	background-color: transparent;
+}
+
 /********************
 HEADING
 ********************/
@@ -315,7 +319,7 @@ ABOUT
 }
 
 #about_background_1 {
-	background-color: white;
+	background-color: $darkGreen;
 }
 
 #about_background_2 {
@@ -551,8 +555,18 @@ TEAM
 CONTACT
 ********************/
 
-#about_background_1 {
-	background-color: $darkGreen;
+#contact_background_1 {
+	background-color: $lightGreen;
+}
+
+.contact_heading {
+	font-size: 5em;
+	line-height: 0.8em;
+	color: $lightGreen2;
+}
+
+img#connect_pics {
+	padding: 0 2%;
 }
 
 
