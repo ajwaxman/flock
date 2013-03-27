@@ -310,17 +310,6 @@ header#launch_header_nav {
 
 @media screen and (max-width: 320px) {
 
-	#launch_splash {
-		position: absolute;
-		bottom: 0;
-		right: 0;
-		overflow: hidden;
-
-		background: url(launch_background.png) no-repeat right right fixed;
-	  	-webkit-background-size: cover;
-	  	-o-background-size: cover;
-	  	background-size: cover;
-	}
 	.about_text_highlight {
 		font-size: 1.7em;
 	}
@@ -333,13 +322,20 @@ header#launch_header_nav {
 		display: none;
 	}
 
+	.hidden {
+		visibility: hidden;
+	}
+
 	#launch_splash_mobile {
-		opacity: 0.7;
-		background-color: $lightGreen;
 		position: absolute;
 		height: 100%;
 		width: 100%;
-		display: hidden;
+		overflow: hidden;
+
+		background: url(launch_background_mobile.png) no-repeat right center fixed;
+	  	-webkit-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
 	}
 
 	.launch_logo {
@@ -349,13 +345,14 @@ header#launch_header_nav {
 	#mobile_form {
 		input[type=email] {
 		    position: absolute;
-		    top: 300px;
+		    top: 250px;
+		    left: 10%;
 		    border: 3px solid $lightGreen; 
 		    padding: 10px;
 		    background: white;
 		    margin: 10px 0 10px 0px;
 		    font-size: 1.2em;
-		    width: 220px;
+		    width: 50;
 		    font-family: "Carme";
 		    letter-spacing: 1.5px;
 		    -webkit-border-radius: 0px;
@@ -367,7 +364,7 @@ header#launch_header_nav {
 		    border-radius: 0px;
 		    text-align: left;
 		    padding-left: 30px;
-		    opacity: 0.8;
+		    opacity: 1;
 		}
 
 		input[type=email]:focus {
@@ -375,45 +372,41 @@ header#launch_header_nav {
 		    outline: none;
 		    opacity: 1.0;
 		}
+	}
 
-		input[type=email]:hover {
-		    border: 3px solid $darkGreen; 
-		    outline: none;
-		    opacity: 1.0;
-		}
+	#launch_mobile_text_background {
+		position: absolute;
+		background-color: black;
+		margin-top: 28%;
+		height: 43px;
+		width: 100%;
+		opacity: 0.3;
+	}
 
-		input[type=submit]{
-		    border: 0px solid transparent;
-		    padding: 10px;
-		    background: $darkGreen;
-		    color: white;
-		    font-size: 1.2em;
-		    width: 220px;
-		    font-family: "Carme";
-		    border-radius: 0px;
-		    opacity: 1.0;
-		    -webkit-transition: all 0.5s ease-in-out;
-			-moz-transition: all 0.5s ease-in-out;
-			-o-transition: all 0.5s ease-in-out;
-			transition: all 0.5s ease-in-out;
-			position: absolute;
-		    top: 370px;
-		    opacity: 0.7;
-		}
+	#launch_mobile_text {
+		position: absolute;
+		opacity: 1;
+		color: white;
+		margin-top: 31%;
+		width: 100%;
+		text-align: center;
+		text-decoration: strong;
+		font-size: 1.3em;
+		line-height: 1.3em;
+		background: transparent;
+		opacity: 1;
 
-		input[type=submit]:hover {
-		    border: 0px solid #F4F4EE;
-		    padding: 10px;
-		    background: $darkGreen;
-		    color: white;
-		    font-size: 1.2em;
-		    width: 265px;
-		    opacity: 1;
+		span {
+			font-family: "Arvo", sans-serif;
+			font-size: 1.6em;
+			color: white;
 		}
+	}
 
-		input[type=submit]:active {
-		   	width: 265px;
-		}
+	h3#launch_mobile_text {
+		color: $darkGreen;
+		margin-top: 43%;
+		font-size: 1em;
 	}
 
 	
@@ -688,16 +681,16 @@ img#connect_pics {
 RESPONSIVE APPLIED
 ********************/
 
-// @media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
 	
-// 	/****** LAUNCH SCREEN *******/
-// 	#launch_text {
-// 		font-size: 15px;
-// 		#offline {
-// 			font-size: 22.5px;
-// 		}
-// 	}
-// }
+	/****** LAUNCH SCREEN *******/
+	#launch_text {
+		font-size: 15px;
+		#offline {
+			font-size: 22.5px;
+		}
+	}
+}
 
 
 // @media screen and (max-width: 500px) {

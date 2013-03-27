@@ -6,7 +6,6 @@ $(document).ready(function(){
 		var height = $(window).height();
 		$(".section_background").height((height)+"px");
 		$(".section_background_2").height((height-55)+"px");
-		$("#launch_splash_mobile").hide().fadeIn(3000);
 	});
 	
 	// when window us resizes
