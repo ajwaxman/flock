@@ -376,18 +376,18 @@ header#launch_header_nav {
 
 	#launch_mobile_text_background {
 		position: absolute;
-		background-color: black;
-		margin-top: 28%;
-		height: 43px;
+		background-color: white;
+		top: 0px;
+		height: 93px;
 		width: 100%;
-		opacity: 0.3;
+		opacity: 0.6;
 	}
 
 	#launch_mobile_text {
 		position: absolute;
 		opacity: 1;
-		color: white;
-		margin-top: 31%;
+		color: $lightGreen2;
+		top: 61px;
 		width: 100%;
 		text-align: center;
 		text-decoration: strong;
@@ -399,16 +399,36 @@ header#launch_header_nav {
 		span {
 			font-family: "Arvo", sans-serif;
 			font-size: 1.6em;
-			color: white;
 		}
 	}
 
-	h3#launch_mobile_text {
+	#launch_mobile_text_sub {
 		color: $darkGreen;
-		margin-top: 43%;
+		position: absolute;
+		top: 230px;
 		font-size: 1em;
+		width: 100%;
+		text-align: center;
 	}
 
+	.launch_logo_mobile {
+		position: absolute;
+		height: 50px;
+		width: 50px;
+		top: 5px;
+		left: 65px;
+	}
+
+	#flock_text_mobile {
+		text-align: center;
+		position: absolute;
+		left: 120px;
+		top: 15px;
+		font-family: "Hammersmith One", sans-serif;
+		color: $darkGreen;
+		font-size: 3.5em;
+		opacity: 1;
+	}
 	
 }
 
