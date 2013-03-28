@@ -183,7 +183,7 @@ header#launch_header_nav {
 	position: relative;
 	height: 80px;
 	width: 80px;
-	top: 27px;
+	top: 7px;
 	left: 15px;
 }
 
@@ -346,12 +346,12 @@ header#launch_header_nav {
 		input[type=email] {
 		    position: absolute;
 		    top: 250px;
-		    left: 10%;
+		    left: 35px;
 		    border: 3px solid $lightGreen; 
 		    padding: 10px;
 		    background: white;
 		    margin: 10px 0 10px 0px;
-		    font-size: 1.2em;
+		    font-size: 1em;
 		    width: 50;
 		    font-family: "Carme";
 		    letter-spacing: 1.5px;
@@ -362,8 +362,8 @@ header#launch_header_nav {
 			-o-transition: all 0.5s ease-in-out;
 			transition: all 0.5s ease-in-out;
 		    border-radius: 0px;
-		    text-align: left;
-		    padding-left: 30px;
+		    text-align: center;
+		    padding-left: 10px;
 		    opacity: 1;
 		}
 
@@ -602,7 +602,7 @@ ABOUT
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 320px) {
 	.about_heading_top {
 		font-size: 1.4em;
 		line-height: 1.5em;
