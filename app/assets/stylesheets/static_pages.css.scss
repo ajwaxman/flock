@@ -352,7 +352,6 @@ header#launch_header_nav {
 		    background: white;
 		    margin: 10px 0 10px 0px;
 		    font-size: 1em;
-		    width: 50;
 		    font-family: "Carme";
 		    letter-spacing: 1.5px;
 		    -webkit-border-radius: 0px;
@@ -372,33 +371,54 @@ header#launch_header_nav {
 		    outline: none;
 		    opacity: 1.0;
 		}
+
+		input[type=submit]{
+		    border: 0px solid transparent;
+		    padding: 10px;
+		    background: $darkGreen;
+		    color: white;
+		    font-size: 1em;
+		    width: 200px;
+		    font-family: "Carme";
+		    border-radius: 20px;
+		    opacity: 1.0;
+		    -webkit-transition: all 0.5s ease-in-out;
+			-moz-transition: all 0.5s ease-in-out;
+			-o-transition: all 0.5s ease-in-out;
+			transition: all 0.5s ease-in-out;
+			position: absolute;
+		    top: 315px;
+		    left: 53px;
+		    opacity: 0.8;
+		   }
+
 	}
 
 	#launch_mobile_text_background {
 		position: absolute;
 		background-color: white;
 		top: 0px;
-		height: 93px;
+		height: 96px;
 		width: 100%;
-		opacity: 0.6;
+		opacity: 0.4;
 	}
 
 	#launch_mobile_text {
 		position: absolute;
 		opacity: 1;
-		color: $lightGreen2;
-		top: 61px;
+		color: $darkGreen;
+		top: 63px;
 		width: 100%;
 		text-align: center;
 		text-decoration: strong;
 		font-size: 1.3em;
 		line-height: 1.3em;
 		background: transparent;
-		opacity: 1;
+		opacity: 0.6;
 
 		span {
 			font-family: "Arvo", sans-serif;
-			font-size: 1.6em;
+			font-size: 1.5em;
 		}
 	}
 

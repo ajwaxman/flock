@@ -8,7 +8,7 @@
 			<img ><%= image_tag "Website_Launch_Logo.png", :class => "launch_logo_mobile mobile" %><img>
 			<h1 id="flock_text_mobile" class= "mobile">Flock</h1>
 			<h1 id="launch_mobile_text" class="mobile">Bring the Party <span>OFFLINE</span><h1>
-			<h3 id="launch_mobile_text_sub" class="mobile">request a beta invite below<h3>
+			<h3 id="launch_mobile_text_sub" class="mobile hidden">request a beta invite below<h3>
 
 		</div>
 
@@ -25,33 +25,39 @@
 
 
 
-			<%= form_for User.new do |f| %>
-				
-			<!-- Desktop Form -->	
+		<%= form_for(@user) do |f| %>
 
-			 <div id="desktop_form">
-			  <div class="field desktop">
-			    <%= f.email_field :email, :placeholder => "hopefullynot@aol.com"%>
-			  </div>
+		<!--Desktop Form -->
 
-			  <div class="actions desktop">
-			    <%= f.submit "Request Beta Invite!" %>
-			  </div>
-			 </div>
+		<div id="desktop_form">
+		  <div class="field desktop">
+		    <%= f.email_field :email, :placeholder => "hopefullynot@aol.com" %>
+		  </div>
 
-			<!-- Mobile Form -->	
+		  <div class="actions desktop">
+		    <%= f.submit "Request Beta Invite!"%>
+		  </div>
+		</div>
 
-			<div id="mobile_form">  
-			  <div class="field mobile">
-			    <%= f.email_field :email, :placeholder => "hopefullynot@aol.com" %>
-			  </div>
+		<% end %>
 
-			  <div class="actions hidden mobile">
-			    <%= f.submit "Request Beta Invite!" %>
-			  </div>
-			 </div>
-				
-			<% end %>
+		<!--Mobile Form -->
+
+		<%= form_for(@user) do |f| %>
+
+		<div id="mobile_form">
+		  <div class="field mobile">
+		    <%= f.email_field :email, :placeholder => "hopefullynot@aol.com" %>
+		  </div>
+
+		  <div class="actions mobile">
+		    <%= f.submit "Request Beta Invite!"%>
+		  </div>
+		</div>
+
+		<% end %>
+
+
 
 		
 		<!--Desktop Header-->
