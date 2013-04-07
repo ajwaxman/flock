@@ -235,3 +235,10 @@ Compiled static_pages.js  (0ms)  (pid 14088)
 Compiled users.js  (294ms)  (pid 14088)
 Compiled application.js  (451ms)  (pid 14088)
 Compiled scaffolds.css  (56ms)  (pid 14088)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Migrating to CreateUsers (20130320161649)
+Migrating to RemoveBetaTesterFromUsers (20130320162257)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
