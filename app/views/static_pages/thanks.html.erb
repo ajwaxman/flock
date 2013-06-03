@@ -24,38 +24,9 @@
 		</div>
 
 
+		<h1 id="thanks_desktop" class="desktop">Thanks for your interest in Flock!<br><br>We'll reach out as soon as we're<br>ready to bring you on board! </h1>
 
-		<%= form_for(@user, :url => '/thanks') do |f| %>
-
-		<!--Desktop Form -->
-
-		<div id="desktop_form">
-		  <div class="field desktop">
-		    <%= f.email_field :email, :placeholder => "hopefullynot@aol.com" %>
-		  </div>
-
-		  <div class="actions desktop">
-		    <%= f.submit "Request Beta Invite!", id: "desktop_form"%>
-		  </div>
-		</div>
-
-		<% end %>
-
-		<!--Mobile Form -->
-
-		<%= form_for(@user, :url => '/thanks') do |f| %>
-
-		<div id="mobile_form">
-		  <div class="field mobile">
-		    <%= f.email_field :email, :placeholder => "hopefullynot@aol.com" %>
-		  </div>
-
-		  <div class="actions mobile">
-		    <%= f.submit "Request Beta Invite!"%>
-		  </div>
-		</div>
-
-		<% end %>
+		<h1 id="thanks_mobile" class="mobile">Thanks for your interest in Flock!<br><br>We'll reach out as soon as we're ready to bring you on board! </h1>
 
 
 
@@ -93,6 +64,17 @@
 
 </div>
 
+<script>
+
+$(document).ready(function() {
+    $("#new_user").submit(function(e) {
+        $("#desktop_form").hide();
+        $("#second").show();
+    });
+});
+
+
+</script>
 
 
 

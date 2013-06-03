@@ -7,6 +7,7 @@ Flock::Application.routes.draw do
   match '/contact', to: 'static_pages#contact'
   match '/jobs', to: 'static_pages#jobs'
   match '/faq', to: 'static_pages#faq'
+  match '/thanks', to: 'static_pages#thanks'
 
   # get "static_pages/about"
 

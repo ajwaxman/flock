@@ -50,11 +50,8 @@ class UsersController < ApplicationController
                 # Tell the UserMailer to send a welcome Email after save
                 # UserMailer.sign_up(@user).deliver
 
-                format.html { redirect_to root_path, notice: 'User was successfully created.' }
-                format.json { render json: @user, status: :created, location: @user }
-              else
-                format.html { render action: "new" }
-                format.json { render json: @user.errors, status: :unprocessable_entity }
+                redirect_to 'static_pages#thanks'
+                
               end
             end
           end

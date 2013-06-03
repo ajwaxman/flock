@@ -180,10 +180,10 @@ header#launch_header_nav {
 }
 
 .launch_logo {
-	position: relative;
+	position: absolute;
 	height: 80px;
 	width: 80px;
-	top: 7px;
+	top: 28px;
 	left: 15px;
 }
 
@@ -231,6 +231,28 @@ header#launch_header_nav {
 
 	}
 }
+
+#thanks_desktop {
+		position: absolute;
+		top: 300px;
+		left: 35px;
+		font-size: 18px;
+		font-family: "Carme", sans-serif;
+		color: white;
+		line-height: 125%;
+}
+
+#thanks_mobile {
+		position: absolute;
+		top: 200px;
+		font-size: 18px;
+		font-family: "Carme", sans-serif;
+		color: $darkGreen;
+		line-height: 125%;
+		text-align: center;
+}
+
+
 
 	#desktop_form {
 		input[type=email] {
